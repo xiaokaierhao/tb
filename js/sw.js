@@ -1,5 +1,5 @@
 ;
-var mySwiper = new Swiper ('.swiper-container', {
+var mySwiper = new Swiper ('.mainsw', {
     loop: true, // 循环模式选项
     autoplay:true,
 

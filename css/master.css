@@ -1,3 +1,6 @@
+.body{
+  background: #dadada;
+}
 .nav{
   width: 375px;
   height: 37px;
@@ -134,7 +137,116 @@ width: 31px;
   border: 1px solid #e7e7e7;
   justify-content: space-around;
   align-items: center;
+  background: #fff;
 }
 .footer .wenben{
   font-size: 12px;
+}
+.qianggou{
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 224px;
+  border-top: 5px solid #dadada;
+  border-bottom:  5px solid #dadada;
+}
+.qianggou .qianggou1{
+  display: flex;
+  width: 375px;
+  height: 112px;
+}
+.qianggou1 .qitem{
+  display: flex;
+  width: 187.5em;
+  height: 112px;
+}
+.qitem .item1,.qitem .item2,.qitem .item3,.qitem .item4{
+  width: 93.75px;
+  height: 112px;
+}
+.qitem .item1{
+  background: #123;
+}
+.qitem .item2{
+  background: #345;
+}
+.qitem .item3{
+  background: #abc;
+}
+.qitem .item4{
+  background: #cde;
+}
+.zhibo{
+  position: relative;
+  width: 375px;
+  height: 353px;
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  background: #dadada;
+}
+.zhibo .logo1{
+  width: 375px;
+  height: 29px;
+  position: absolute;
+  left: 0;
+  top:-14.5;
+
+}
+.logo1 .logo{
+    background-image: url(../img/zhibologo.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.zhibo .item1{
+  width: 375px;
+  height: 125px;
+  display: flex;
+  margin-top: 14.5px;
+
+}
+.item1 .img1{
+  flex: 2;
+  height: 125px;
+  background: #ec4b4b;
+}
+.item1 .img2{
+  flex:1;
+  height: 125px;
+  background: #4bc7ec;
+}
+.zhibo .item2{
+  width: 375px;
+  height: 180.5px;
+  display: flex;
+  justify-content: space-around;
+}
+.item2 .img{
+  display: flex;
+  flex-direction: column;
+}
+.item2 .img .tu{
+  height: 125.5px;
+  background: #1a2;
+  width: 124.5px;
+}
+.item2 .img .txt{
+  width: 124.5px;
+  height: 55px;
+  background: #fff;
+}
+.item3{
+  width: 375px;
+  background: #fff;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+.item3 .zhubotuijian{
+  border: 1px solid rgb(253, 30, 87);
+  color: rgb(253, 30, 87);
+  border-radius: 3px;
 }
