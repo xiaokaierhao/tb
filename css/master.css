@@ -1,0 +1,28 @@
+.nav{
+  width: 375px;
+  height: 37px;
+  background: #FF852A;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav .logo{
+width: 31px;
+}
+.logo img{
+  width: 100%;
+}
+.nav .sec{
+  background: #FF4E22;
+  width: 324px;
+  height: 25px;
+  border-radius:4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+}
+.sec .iconfont{
+  font-size:13px;
+}
