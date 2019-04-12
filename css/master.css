@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  position: fixed;
 }
 .nav .logo{
 width: 31px;
@@ -22,6 +23,7 @@ width: 31px;
   align-items: center;
   color: #fff;
   font-weight: 600;
+  text-decoration: none;
 }
 .sec .iconfont{
   font-size:13px;
